@@ -1,0 +1,10 @@
+numpy==1.21.2
+scipy
+scikit-learn==0.24.1
+matplotlib==3.4.1
+pandas==1.1.4
+fast-histogram==0.10
+KDEpy==1.1.0
+tqdm==4.53.0
+colorcet==2.0.6
+h5py==3.1.0
