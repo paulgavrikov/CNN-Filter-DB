@@ -10,7 +10,9 @@ Abstract: *We present first empirical results from our ongoing investigation of 
 
 ## Environment 
 Python 3.8.8
+
 Linux 3.10.0-1160.24.1.el7.x86_64
+
 To install all necessary modules please run (or install manually with your desired package manager).
 ```
 pip install -r requirements.txt
