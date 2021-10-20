@@ -15,7 +15,35 @@ Python 3.8.8
 
 Linux 3.10.0-1160.24.1.el7.x86_64
 
-To install all necessary modules please run (or install manually with your desired package manager).
+To install all necessary modules please run:
 ```
 pip install -r requirements.txt
+```
+
+or install these modules manually with your desired package manager:
+```
+numpy==1.21.2
+scipy
+scikit-learn==0.24.1
+matplotlib==3.4.1
+pandas==1.1.4
+fast-histogram==0.10
+KDEpy==1.1.0
+tqdm==4.53.0
+colorcet==2.0.6
+h5py==3.1.0
+```
+
+
+## Prepare 
+Download dataset.h5 from https://drive.google.com/drive/folders/11ODURpMXY-LWFuu46rlUE69MDDS-48I0. This file contains the filters and meta information.
+
+## Run
+Adjust `dataset_path` in https://github.com/paulgavrikov/CNN-Filter-DB/blob/main/main.ipynb and run the cells.
+
+## Citation 
+
+If you find our work useful in your research, please consider citing:
+
+```
 ```
