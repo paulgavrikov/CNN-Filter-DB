@@ -36,7 +36,7 @@ h5py==3.1.0
 
 
 ## Prepare 
-Download dataset.h5 from https://drive.google.com/drive/folders/11ODURpMXY-LWFuu46rlUE69MDDS-48I0. This file contains the filters and meta information.
+Download dataset.h5 from https://bit.ly/2Zc4xry. This file contains the filters and meta information.
 
 ## Run
 Adjust `dataset_path` in https://github.com/paulgavrikov/CNN-Filter-DB/blob/main/main.ipynb and run the cells.
