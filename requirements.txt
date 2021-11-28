@@ -8,3 +8,4 @@ KDEpy==1.1.0
 tqdm==4.53.0
 colorcet==2.0.6
 h5py==3.1.0
+tables==3.6.1
