@@ -39,7 +39,7 @@ h5py==3.1.0
 
 
 ## Prepare 
-Download `dataset.h5` from https://bit.ly/3I1MAOi. This file contains the filters and meta information as individual datasets. 
+Download `dataset.h5` from https://bit.ly/cnn-filter-db-dataset. This file contains the filters and meta information as individual datasets. 
  
 The filters are linked as a `Nx9` `numpy.float32` array under the `/filter` dataset. Every row is one filter and the row number is also the filter ID (i.e. the first row is filter ID 0). To reshape a filter `f` back to their original shape use `f.reshape(3, 3)`.
   
