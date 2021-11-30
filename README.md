@@ -41,7 +41,7 @@ h5py==3.1.0
 ## Prepare 
 Download `dataset.h5` from https://bit.ly/cnn-filter-db-dataset. This file contains the filters and meta information as individual datasets. 
  
-The filters are linked as a `Nx9` `numpy.float32` array under the `/filter` dataset. Every row is one filter and the row number is also the filter ID (i.e. the first row is filter ID 0). To reshape a filter `f` back to their original shape use `f.reshape(3, 3)`.
+The filters are linked as a `Nx9` `numpy.float32` array under the `/filter` dataset. Every row is one filter and the row number is also the filter ID (i.e. the first row is filter ID 0). To reshape a filter `f` back to its original shape use `f.reshape(3, 3)`.
   
 The meta information is stored as a `pandas.DataFrame` under `/meta`. Following is an *out of order* list of column keys with a short description. Other column keys can and should be ignored. The table has a Multiindex on `[model_id, conv_depth, conv_depth]`.
   
