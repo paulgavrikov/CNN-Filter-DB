@@ -78,5 +78,12 @@ Adjust `dataset_path` in https://github.com/paulgavrikov/CNN-Filter-DB/blob/main
 If you find our work useful in your research, please consider citing:
 
 ```
-<not yet available>
+@inproceedings{
+gavrikov2021an,
+title={An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters},
+author={Gavrikov, Paul and Keuper, Janis},
+booktitle={NeurIPS 2021 Workshop on Distribution Shifts: Connecting Methods and Applications},
+year={2021},
+url={https://openreview.net/forum?id=2st0AzxC3mh}
+}
 ```
