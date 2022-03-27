@@ -1,6 +1,8 @@
 # CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters
 Paul Gavrikov, Janis Keuper
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6371680.svg)](https://doi.org/10.5281/zenodo.6371680)
+
 ![Distribution shifts of trained 3x3 convolution filters](./assets/kl_combined.png)
 
 Paper: 
@@ -13,8 +15,8 @@ In a first use case of the proposed data set, we can show highly relevant proper
   
 | Version | Access | Paper | Changes |
 |:---:|:---:|:---:|:---|
-| v1.0.0 | 10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
-| v0.0.1 | n/a | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
+| v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
+| v0.0.1 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
 
 ## Environment 
 We have executed this with `Python 3.8.8` on `Linux 3.10.0-1160.24.1.el7.x86_64`. The scripts should however work with most python3 versions and OS.
