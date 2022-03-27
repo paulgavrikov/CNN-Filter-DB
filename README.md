@@ -11,7 +11,7 @@ In a first use case of the proposed data set, we can show highly relevant proper
 
 ## Versions 
   
-| Version | DOI | Paper | Changes |
+| Version | Access | Paper | Changes |
 |:---:|:---:|:---:|:---|
 | v1.0.0 | 10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
 | v0.0.1 | n/a | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
@@ -41,8 +41,9 @@ tables==3.6.1
 
 
 ## Prepare 
-Download `dataset.h5` from https://kaggle.com/paulgavrikov/cnn-filter-db. This file contains the filters and meta information as individual datasets. 
- 
+Download `dataset.h5`. This file contains the filters and meta information as individual datasets. 
+If the filename ends with `.xz` you first need to decompress it: `xz -dv data.csv.xz`. Note that this will increase size by 225%.
+
 The filters are linked as a `Nx9` `numpy.float32` array under the `/filter` dataset. Every row is one filter and the row number is also the filter ID (i.e. the first row is filter ID 0). To reshape a filter `f` back to its original shape use `f.reshape(3, 3)`.
   
 The meta information is stored as a `pandas.DataFrame` under `/meta`. Following is an *out of order* list of column keys with a short description. Other column keys can and should be ignored. The table has a Multiindex on `[model_id, conv_depth, conv_depth]`.
