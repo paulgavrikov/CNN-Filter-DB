@@ -5,7 +5,7 @@ Paul Gavrikov, Janis Keuper
 
 ![Distribution shifts of trained 3x3 convolution filters](./assets/kl_combined.png)
 
-Paper: 
+Paper: COMING SOON
 
 Abstract: *Currently, many theoretical as well as practically relevant questions towards the transferability and robustness of Convolutional Neural Networks (CNNs) remain unsolved. While ongoing research efforts are engaging these problems from various angles, in most computer vision related cases these approaches can be generalized to investigations of the effects of distribution shifts in image data.
 In this context, we propose to study the shifts in the learned weights of trained CNN models. Here we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over 1.4 billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks.
@@ -16,7 +16,7 @@ In a first use case of the proposed data set, we can show highly relevant proper
 | Version | Access | Paper | Changes |
 |:---:|:---:|:---:|:---|
 | v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
-| v0.0.1 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
+| v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
 
 ## Environment 
 We have executed this with `Python 3.8.8` on `Linux 3.10.0-1160.24.1.el7.x86_64`. The scripts should however work with most python3 versions and OS.
