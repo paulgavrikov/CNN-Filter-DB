@@ -1,19 +1,20 @@
-# CNN-Filter-DB
-
-**An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters**<br>
+# CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters
 Paul Gavrikov, Janis Keuper
 
 ![Distribution shifts of trained 3x3 convolution filters](./assets/kl_combined.png)
 
-Paper: https://openreview.net/forum?id=2st0AzxC3mh
+Paper: 
 
-Abstract: *We present first empirical results from our ongoing investigation of distribution shifts in image data used for various computer vision tasks. Instead of analyzing the original training and test data, we propose to study shifts in the learned weights of trained models. In this work, we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over half a billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks. Our analysis shows interesting distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like data type, task, architecture, or layer depth. We argue, that the observed properties are a valuable source for further investigation into a better understanding of the impact of shifts in the input data to the generalization abilities of CNN models and novel methods for more robust transfer-learning in this domain.*
+Abstract: *Currently, many theoretical as well as practically relevant questions towards the transferability and robustness of Convolutional Neural Networks (CNNs) remain unsolved. While ongoing research efforts are engaging these problems from various angles, in most computer vision related cases these approaches can be generalized to investigations of the effects of distribution shifts in image data.
+In this context, we propose to study the shifts in the learned weights of trained CNN models. Here we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over 1.4 billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks.
+In a first use case of the proposed data set, we can show highly relevant properties of many publicly available pre-trained models for practical applications: I) We analyze distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like visual category of the data set, task, architecture, or layer depth. Based on these results, we conclude that model pre-training can succeed on arbitrary data sets if they meet size and variance conditions. II) We show that many pre-trained models contain degenerated filters which make them less robust and less suitable for fine-tuning on target applications.*
 
 ## Versions 
   
-| Number | Changes |
-|:---:|:---|
-| v1.0 | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
+| Version | DOI | Paper | Changes |
+|:---:|:---:|:---:|:---|
+| v1.0.0 | 10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
+| v0.0.1 | n/a | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
 
 ## Environment 
 We have executed this with `Python 3.8.8` on `Linux 3.10.0-1160.24.1.el7.x86_64`. The scripts should however work with most python3 versions and OS.
@@ -78,12 +79,5 @@ Adjust `dataset_path` in https://github.com/paulgavrikov/CNN-Filter-DB/blob/main
 If you find our work useful in your research, please consider citing:
 
 ```
-@inproceedings{
-gavrikov2021an,
-title={An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters},
-author={Gavrikov, Paul and Keuper, Janis},
-booktitle={NeurIPS 2021 Workshop on Distribution Shifts: Connecting Methods and Applications},
-year={2021},
-url={https://openreview.net/forum?id=2st0AzxC3mh}
-}
+COMING SOON
 ```
