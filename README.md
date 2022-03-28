@@ -1,19 +1,28 @@
-# CNN-Filter-DB
-
-**An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters**<br>
+# CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters
 Paul Gavrikov, Janis Keuper
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6371680.svg)](https://doi.org/10.5281/zenodo.6371680) [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
 
 ![Distribution shifts of trained 3x3 convolution filters](./assets/kl_combined.png)
 
-Paper: <not yet available>
+Paper: COMING SOON
 
-Abstract: *We present first empirical results from our ongoing investigation of distribution shifts in image data used for various computer vision tasks. Instead of analyzing the original training and test data, we propose to study shifts in the learned weights of trained models. In this work, we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over half a billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks. Our analysis shows interesting distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like data type, task, architecture, or layer depth. We argue, that the observed properties are a valuable source for further investigation into a better understanding of the impact of shifts in the input data to the generalization abilities of CNN models and novel methods for more robust transfer-learning in this domain.*
+Abstract: *Currently, many theoretical as well as practically relevant questions towards the transferability and robustness of Convolutional Neural Networks (CNNs) remain unsolved. While ongoing research efforts are engaging these problems from various angles, in most computer vision related cases these approaches can be generalized to investigations of the effects of distribution shifts in image data.
+In this context, we propose to study the shifts in the learned weights of trained CNN models. Here we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over 1.4 billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks.
+In a first use case of the proposed data set, we can show highly relevant properties of many publicly available pre-trained models for practical applications: I) We analyze distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like visual category of the data set, task, architecture, or layer depth. Based on these results, we conclude that model pre-training can succeed on arbitrary data sets if they meet size and variance conditions. II) We show that many pre-trained models contain degenerated filters which make them less robust and less suitable for fine-tuning on target applications.*
 
 ## Versions 
   
-| Number | Changes |
-|:---:|:---|
-| v1.0 | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
+| Version | Access | Paper | Changes |
+|:---:|:---:|:---:|:---|
+| v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
+| v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
 
 ## Environment 
 We have executed this with `Python 3.8.8` on `Linux 3.10.0-1160.24.1.el7.x86_64`. The scripts should however work with most python3 versions and OS.
@@ -35,13 +44,15 @@ KDEpy==1.1.0
 tqdm==4.53.0
 colorcet==2.0.6
 h5py==3.1.0
+tables==3.6.1
 ```
 
 
 ## Prepare 
-Download `dataset.h5` from https://bit.ly/2Zc4xry. This file contains the filters and meta information as individual datasets. 
- 
-The filters are linked as a `Nx9` `numpy.float32` array under the `/filter` dataset. Every row is one filter and the row number is also the filter ID (i.e. the first row is filter ID 0). To reshape a filter `f` back to their original shape use `f.reshape(3, 3)`.
+Download `dataset.h5`. This file contains the filters and meta information as individual datasets. 
+If the filename ends with `.xz` you first need to decompress it: `xz -dv data.csv.xz`. Note that this will increase size by 225%.
+
+The filters are linked as a `Nx9` `numpy.float32` array under the `/filter` dataset. Every row is one filter and the row number is also the filter ID (i.e. the first row is filter ID 0). To reshape a filter `f` back to its original shape use `f.reshape(3, 3)`.
   
 The meta information is stored as a `pandas.DataFrame` under `/meta`. Following is an *out of order* list of column keys with a short description. Other column keys can and should be ignored. The table has a Multiindex on `[model_id, conv_depth, conv_depth]`.
   
@@ -77,5 +88,9 @@ Adjust `dataset_path` in https://github.com/paulgavrikov/CNN-Filter-DB/blob/main
 If you find our work useful in your research, please consider citing:
 
 ```
-<not yet available>
+COMING SOON
 ```
+### Legal
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
