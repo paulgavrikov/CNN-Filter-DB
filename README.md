@@ -11,7 +11,7 @@ Paul Gavrikov, Janis Keuper
 
 ![Distribution shifts of trained 3x3 convolution filters](./assets/kl_combined.png)
 
-Main Paper: COMING SOON
+Main Paper: https://arxiv.org/abs/2203.15331
 
 Main Oral Presentation: COMING SOON
 
