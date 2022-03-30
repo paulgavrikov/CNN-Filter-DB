@@ -98,6 +98,22 @@ If you find our work useful in your research, please consider citing:
 ```
 COMING SOON
 ```
+
+and the dataset:
+```
+@dataset{cnnfilterdb2022,
+  author       = {Paul Gavrikov and
+                  Janis Keuper},
+  title        = {CNN-Filter-DB},
+  month        = jun,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.6371680},
+  url          = {https://doi.org/10.5281/zenodo.6371680}
+}
+```
+
 ### Legal
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
