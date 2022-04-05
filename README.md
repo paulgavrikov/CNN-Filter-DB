@@ -32,6 +32,8 @@ In a first use case of the proposed data set, we can show highly relevant proper
 | v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
 | v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
 
+If you are looking for our specialized dataset on Robustness head to https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens.
+
 ## Environment 
 We have executed this with `Python 3.8.8` on `Linux 3.10.0-1160.24.1.el7.x86_64`. The scripts should however work with most python3 versions and OS.
 
