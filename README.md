@@ -1,7 +1,7 @@
 # CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters (CVPR2022 ORAL)
 Paul Gavrikov, Janis Keuper
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6371680.svg)](https://doi.org/10.5281/zenodo.6371680) [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
@@ -115,7 +115,7 @@ and the dataset:
   url          = {https://doi.org/10.5281/zenodo.6371680}
 }
 ```
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6371680.svg)](https://doi.org/10.5281/zenodo.6371680) 
 ### Legal
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
