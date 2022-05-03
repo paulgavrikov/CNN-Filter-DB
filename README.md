@@ -99,11 +99,12 @@ If you find our work useful in your research, please consider citing:
 
 ```
 @InProceedings{gavrikov2022cnn,
-author = {Gavrikov, Paul and Keuper, Janis},
-title = {CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters},
-booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {July},
-year = {2022}
+  author       = {Paul Gavrikov and
+                  Janis Keuper},
+  title        = {CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters},
+  booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month        = {July},
+  year         = {2022}
 }
 ```
 
