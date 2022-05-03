@@ -98,7 +98,13 @@ Adjust `dataset_path` in https://github.com/paulgavrikov/CNN-Filter-DB/blob/main
 If you find our work useful in your research, please consider citing:
 
 ```
-COMING SOON
+@InProceedings{gavrikov2022cnn,
+author = {Gavrikov, Paul and Keuper, Janis},
+title = {CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2022}
+}
 ```
 
 and the dataset:
