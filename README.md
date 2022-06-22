@@ -11,15 +11,10 @@ Paul Gavrikov, Janis Keuper
 
 ![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
 
-Main Paper: https://arxiv.org/abs/2203.15331
+Paper: https://arxiv.org/abs/2203.15331
+HQ Poster: [https://zenodo.org/record/6687455#.YrOAZi9w2MI](https://zenodo.org/record/6687455#.YrOAZi9w2MI)
 
-Main Oral Presentation: COMING SOON
-
-Main Poster: [https://zenodo.org/record/6687455#.YrOAZi9w2MI](https://zenodo.org/record/6687455#.YrOAZi9w2MI)
-
-Workshop Paper: https://openreview.net/forum?id=2st0AzxC3mh
-
-Workshop Poster: https://doi.org/10.5281/zenodo.6392142
+Oral Presentation: COMING SOON
 
 Abstract: *Currently, many theoretical as well as practically relevant questions towards the transferability and robustness of Convolutional Neural Networks (CNNs) remain unsolved. While ongoing research efforts are engaging these problems from various angles, in most computer vision related cases these approaches can be generalized to investigations of the effects of distribution shifts in image data.
 In this context, we propose to study the shifts in the learned weights of trained CNN models. Here we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over 1.4 billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks.
@@ -30,7 +25,7 @@ In a first use case of the proposed data set, we can show highly relevant proper
 | Version | Access | Paper | Changes |
 |:---:|:---:|:---:|:---|
 | v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | [Link](https://arxiv.org/abs/2203.15331) | Dataset as presented at CVPR 2022|
-| v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
+| v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop. Workshop Paper: https://openreview.net/forum?id=2st0AzxC3mh Workshop Poster: https://doi.org/10.5281/zenodo.6392142|
 
 If you are looking for our specialized dataset on Robustness head to https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens.
 
