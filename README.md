@@ -15,7 +15,7 @@ Main Paper: https://arxiv.org/abs/2203.15331
 
 Main Oral Presentation: COMING SOON
 
-Main Poster: COMING SOON
+Main Poster: [https://zenodo.org/record/6687455#.YrOAZi9w2MI](https://zenodo.org/record/6687455#.YrOAZi9w2MI)
 
 Workshop Paper: https://openreview.net/forum?id=2st0AzxC3mh
 
