@@ -9,7 +9,7 @@ Paul Gavrikov, Janis Keuper
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 
-![Distribution shifts of trained 3x3 convolution filters](./assets/kl_combined.png)
+![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
 
 Main Paper: https://arxiv.org/abs/2203.15331
 
