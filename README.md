@@ -29,7 +29,7 @@ In a first use case of the proposed data set, we can show highly relevant proper
   
 | Version | Access | Paper | Changes |
 |:---:|:---:|:---:|:---|
-| v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | COMING SOON | Dataset as presented at CVPR 2022|
+| v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | [Link](https://arxiv.org/abs/2203.15331) | Dataset as presented at CVPR 2022|
 | v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop|
 
 If you are looking for our specialized dataset on Robustness head to https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens.
