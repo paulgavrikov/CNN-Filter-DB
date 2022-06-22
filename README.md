@@ -12,6 +12,7 @@ Paul Gavrikov, Janis Keuper
 ![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
 
 Paper: https://arxiv.org/abs/2203.15331
+
 HQ Poster: [https://zenodo.org/record/6687455#.YrOAZi9w2MI](https://zenodo.org/record/6687455#.YrOAZi9w2MI)
 
 Oral Presentation: COMING SOON
