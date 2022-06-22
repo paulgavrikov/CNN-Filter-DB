@@ -15,7 +15,7 @@ Paper: https://arxiv.org/abs/2203.15331
 
 HQ Poster: [https://zenodo.org/record/6687455#.YrOAZi9w2MI](https://zenodo.org/record/6687455#.YrOAZi9w2MI)
 
-Oral Presentation: COMING SOON
+Oral Presentation: https://ieeecs.warpwire.com/w/l5sAAA/
 
 Abstract: *Currently, many theoretical as well as practically relevant questions towards the transferability and robustness of Convolutional Neural Networks (CNNs) remain unsolved. While ongoing research efforts are engaging these problems from various angles, in most computer vision related cases these approaches can be generalized to investigations of the effects of distribution shifts in image data.
 In this context, we propose to study the shifts in the learned weights of trained CNN models. Here we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over 1.4 billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks.
