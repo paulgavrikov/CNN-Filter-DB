@@ -8,25 +8,20 @@ Paul Gavrikov, Janis Keuper
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
-
-![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
-
-Paper: https://arxiv.org/abs/2203.15331
-
-HQ Poster: [https://zenodo.org/record/6687455#.YrOAZi9w2MI](https://zenodo.org/record/6687455#.YrOAZi9w2MI)
-
-Oral Presentation: https://ieeecs.warpwire.com/w/l5sAAA/
+[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html) | [ArXiv](https://arxiv.org/abs/2203.15331) | [HQ Poster](https://zenodo.org/record/6687455#.YrOAZi9w2MI) | [Oral Presentation](https://ieeecs.warpwire.com/w/l5sAAA/)
 
 Abstract: *Currently, many theoretical as well as practically relevant questions towards the transferability and robustness of Convolutional Neural Networks (CNNs) remain unsolved. While ongoing research efforts are engaging these problems from various angles, in most computer vision related cases these approaches can be generalized to investigations of the effects of distribution shifts in image data.
 In this context, we propose to study the shifts in the learned weights of trained CNN models. Here we focus on the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provide a data set with over 1.4 billion filters from hundreds of trained CNNs, using a wide range of data sets, architectures, and vision tasks.
 In a first use case of the proposed data set, we can show highly relevant properties of many publicly available pre-trained models for practical applications: I) We analyze distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like visual category of the data set, task, architecture, or layer depth. Based on these results, we conclude that model pre-training can succeed on arbitrary data sets if they meet size and variance conditions. II) We show that many pre-trained models contain degenerated filters which make them less robust and less suitable for fine-tuning on target applications.*
 
+![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
+
 ## Versions 
   
-| Version | Access | Paper | Changes |
-|:---:|:---:|:---:|:---|
-| v1.0.0 | https://doi.org/10.5281/zenodo.6371680 | [Link](https://arxiv.org/abs/2203.15331) | Dataset as presented at CVPR 2022|
-| v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | [Link](https://openreview.net/forum?id=2st0AzxC3mh) | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop. Workshop Paper: https://openreview.net/forum?id=2st0AzxC3mh Workshop Poster: https://doi.org/10.5281/zenodo.6392142|
+| Version | Access | Changes |
+|:---:|:---:|:---|
+| v1.0.0 **(latest)** | https://doi.org/10.5281/zenodo.6371680 | Dataset as presented at CVPR 2022|
+| v0.1.0 | https://kaggle.com/paulgavrikov/cnn-filter-db | Initial dataset as presented in the NeurIPS 2021 DistShift Workshop. Workshop Paper: https://openreview.net/forum?id=2st0AzxC3mh Workshop Poster: https://doi.org/10.5281/zenodo.6392142|
 
 If you are looking for our specialized dataset on Robustness head to https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens.
 
