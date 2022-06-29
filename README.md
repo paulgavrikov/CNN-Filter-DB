@@ -16,6 +16,9 @@ In a first use case of the proposed data set, we can show highly relevant proper
 
 ![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
 
+> **⚠ Note**  
+> We have received interest of many individuals in using the metrics we propose in our paper to better understand CNN training. Therefore, we have released a torch library here: https://github.com/paulgavrikov/torchconvquality
+
 ## Versions 
   
 | Version | Access | Changes |
