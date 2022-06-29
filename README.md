@@ -121,3 +121,4 @@ and the dataset:
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
+Funded by the Ministry for Science, Research and Arts, Baden-Wuerttemberg, Germany Grant 32-7545.20/45/1 (Q-AMeLiA).
