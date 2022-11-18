@@ -1,4 +1,4 @@
-# CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters (CVPR2022 ORAL)
+# CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters (CVPR2022 Oral)
 Paul Gavrikov, Janis Keuper
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
@@ -16,8 +16,10 @@ In a first use case of the proposed data set, we can show highly relevant proper
 
 ![Poster](./assets/cvpr22_poster_cnnfilterdb_min.png)
 
-> **⚠ Note**  
-> We have received interest of many individuals in using the metrics we propose in our paper to better understand CNN training. Therefore, we have released a torch library here: https://github.com/paulgavrikov/torchconvquality
+## ⚠ News
+**11/2022:** We published a follow-up paper on our previous observations of medical imaging models at MedNeurIPS'22: https://arxiv.org/abs/2210.13799
+
+**07/2022:** We have received interest of many individuals in using the metrics we propose in our paper to better understand CNN training. Therefore, we have released a torch library here: https://github.com/paulgavrikov/torchconvquality
 
 ## Versions 
   
